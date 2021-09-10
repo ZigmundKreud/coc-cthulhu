@@ -9,6 +9,20 @@
     "coc"
   ],
   "author": "Zigmund",
+  "esmodules": ["module/cocth.js"],
+  "styles": ["css/cocth.css"],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    },
+    {
+      "lang": "fr",
+      "name": "Français",
+      "path": "lang/fr.json"
+    }
+  ],
   "packs": [],
   "url": "https://github.com/ZigmundKreud/coc-cthulhu.git",
   "manifest": "https://raw.githubusercontent.com/ZigmundKreud/coc-cthulhu/main/module.json",

@@ -1,0 +1,21 @@
+@import 'utils/colors';
+@import 'utils/typography';
+@import 'utils/mixins';
+@import 'utils/variables';
+
+@font-primary: 'MyriadPro', sans-serif;
+
+/* Styles limited to co sheets */
+.coc {
+
+  &.cocth{
+    font-family: @font-primary;
+    &.actor {
+      @import 'styles/components/actor';
+    }
+    &.item {
+      @import 'styles/components/item';
+    }
+    @import 'styles/components/tabs';
+  }
+}

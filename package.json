@@ -1,0 +1,20 @@
+{
+  "name": "cocth",
+  "version": "1.0.0",
+  "description": "CSS compiler for the Chroniques Oubliées Contemporain system",
+  "scripts": {
+    "css": "gulp css",
+    "watch": "gulp",
+    "gulp": "gulp"
+  },
+  "browserslist": [
+    "last 3 versions"
+  ],
+  "author": "Zigmund",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-less": "^4.0.1"
+  }
+}

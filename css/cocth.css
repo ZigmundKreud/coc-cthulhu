@@ -1,0 +1,550 @@
+/* ----------------------------------------- */
+/*  Premade colors                           */
+/* ----------------------------------------- */
+.light {
+  color: lightgray;
+}
+.bg-light {
+  background: lightgray;
+}
+.darkgray {
+  color: #23221d;
+}
+.bg-darkgray {
+  background: #23221d;
+  color: #fff;
+}
+.darkbrown {
+  color: #464331c4;
+}
+.bg-darkbrown {
+  background: #464331c4;
+  color: #fff;
+}
+.darkslate {
+  color: darkslategray;
+}
+.bg-darkslate {
+  background: darkslategray;
+  color: #fff;
+}
+.darkgreen {
+  color: #003c1e;
+}
+.bg-darkgreen {
+  background: #003c1e;
+  color: #fff;
+}
+.darkblue {
+  color: midnightblue;
+}
+.bg-darkblue {
+  background: midnightblue;
+  color: #fff;
+}
+.blue {
+  color: #009ee0;
+}
+.bg-blue {
+  background: #009ee0;
+  color: #fff;
+}
+.green {
+  color: #44a12b;
+}
+.bg-green {
+  background: #44a12b;
+  color: #fff;
+}
+.black {
+  color: #000;
+}
+.bg-black {
+  background: #000;
+  color: #fff;
+}
+.red {
+  color: #cd071e;
+}
+.bg-red {
+  background: #cd071e;
+  color: #fff;
+}
+.purple {
+  color: purple;
+}
+.bg-purple {
+  background: purple;
+  color: #fff;
+}
+/* ----------------------------------------- */
+/*  LOCAL FONTS                             */
+/* ----------------------------------------- */
+/* ----------------------------------------- */
+/*  TEXT STYLES                             */
+/* ----------------------------------------- */
+.strong {
+  font-weight: bold;
+}
+.font-sm {
+  font-size: smaller;
+}
+.font-lg {
+  font-size: larger;
+}
+.font-light {
+  font-weight: lighter;
+}
+.font-bold {
+  font-weight: bolder;
+}
+.element-invisible {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.hide {
+  display: none;
+}
+.ellipsis {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.nomargin {
+  margin: 0;
+  padding: 0;
+}
+.flxrow {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.flxrow > * {
+  flex: 1;
+}
+.flxrow .flex1 {
+  flex: 1;
+}
+.flxrow .flex2 {
+  flex: 2;
+}
+.flxrow .flex3 {
+  flex: 3;
+}
+.flxrow .flex4 {
+  flex: 4;
+}
+/* Styles limited to co sheets */
+.coc.cocth {
+  font-family: 'MyriadPro', sans-serif;
+}
+.coc.cocth.actor {
+  /* ----------------------------------------- */
+  /*  Layout                                   */
+  /* ----------------------------------------- */
+}
+.coc.cocth.actor .window-content {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+.coc.cocth.actor .window-content > form {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+  background: white;
+}
+.coc.cocth.actor .window-content > form .upper {
+  background-image: url("../ui/cocth/banner-120.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  min-height: 100px;
+  height: 100px;
+  max-height: 100px;
+}
+.coc.cocth.actor .window-content > form .upper .logo {
+  position: relative;
+  top: 30px;
+  background-image: url("../ui/cocth/logo-cocth-sm.png");
+  background-position-x: center;
+  background-position-y: bottom;
+  background-repeat: no-repeat;
+  background-size: 280px auto;
+  min-height: 100px;
+  height: 100px;
+  max-height: 100px;
+}
+.coc.cocth.actor .window-content > form .main {
+  min-height: calc(100% - 100px);
+  height: calc(100% - 100px);
+  max-height: calc(100% - 100px);
+}
+.coc.cocth.actor .window-content > form .main .sidebar {
+  background-image: url("../ui/cocth/sidebar-bg.png");
+  background-size: 100% auto;
+  background-repeat: repeat-y;
+  border-right: 3px solid #a0c159;
+  padding: 0 5px 0 5px;
+  height: 100%;
+  max-width: 300px;
+}
+.coc.cocth.actor .window-content > form .main .sidebar .charname-title {
+  padding-top: 20px;
+}
+.coc.cocth.actor .window-content > form .main .sidebar .charname-title .charname {
+  font-family: ChocolateBox;
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+}
+.coc.cocth.actor .window-content > form .main .sidebar .portrait img.profile {
+  border: none;
+}
+.coc.cocth.actor .window-content > form .main .content {
+  height: 100%;
+  padding: 40px 10px 10px 10px;
+}
+.coc.cocth.actor .window-content > form .main .content .sheet-header {
+  height: 90px;
+  min-height: 90px;
+  max-height: 90px;
+  padding: 10px 0;
+}
+.coc.cocth.actor .window-content > form .main .content .sheet-header .header-details {
+  padding: 10px 0;
+}
+.coc.cocth.actor .window-content > form .main .content .sheet-header .header-details .field-label {
+  text-transform: uppercase;
+}
+.coc.cocth.actor .window-content > form .main .content .sheet-header .header-details .cell-header {
+  background-color: #4d6345;
+}
+.coc.cocth.actor .window-content > form .main .content .sheet-header .header-details .flexrow {
+  margin-bottom: 1px;
+}
+.coc.cocth.actor .window-content > form .main .content .sheet-body {
+  padding: 10px 0;
+  height: calc(100% - 10px);
+  min-height: calc(100% - 10px);
+  max-height: calc(100% - 10px);
+}
+.coc.cocth.actor .window-content > form .main .content .sheet-body .tab {
+  margin: 0;
+  padding: 0;
+  height: calc(100% - 80px);
+  min-height: calc(100% - 80px);
+  max-height: calc(100% - 80px);
+  overflow: auto;
+}
+.coc.cocth.actor .window-content > form .main .content .sheet-body .tab.stats .flexrow {
+  margin-bottom: 1px;
+}
+.coc.cocth.actor .window-content > form .main .content .sheet-body .tab.stats .attributes-header {
+  font-family: 'MyriadProBold', sans-serif;
+  color: #4d6345;
+}
+.coc.cocth.actor .window-content > form .main .content .sheet-body .tab.stats .attributes .cell-header {
+  background-color: #4d6345;
+}
+.coc.cocth.actor .window-content > form .main .content .sheet-body .tab.stats .init-header,
+.coc.cocth.actor .window-content > form .main .content .sheet-body .tab.stats .attacks-header {
+  font-family: 'MyriadProBold', sans-serif;
+  color: #cc262d;
+}
+.coc.cocth.actor .window-content > form .main .content .sheet-body .tab.stats .init .cell-header,
+.coc.cocth.actor .window-content > form .main .content .sheet-body .tab.stats .attacks .cell-header {
+  background-color: #cc262d;
+}
+.coc.cocth.actor .window-content > form .main .content .sheet-body .tab.stats .defence-header {
+  font-family: 'MyriadProBold', sans-serif;
+  color: #329edb;
+}
+.coc.cocth.actor .window-content > form .main .content .sheet-body .tab.stats .defence .cell-header {
+  background-color: #329edb;
+}
+.coc.cocth.actor .window-content > form .main .content .sheet-body .tab.stats .injuries-header,
+.coc.cocth.actor .window-content > form .main .content .sheet-body .tab.stats .recovery-header,
+.coc.cocth.actor .window-content > form .main .content .sheet-body .tab.stats .vitality-header {
+  font-family: 'MyriadProBold', sans-serif;
+  color: #4ba23d;
+}
+.coc.cocth.actor .window-content > form .main .content .sheet-body .tab.stats .injuries .cell-header,
+.coc.cocth.actor .window-content > form .main .content .sheet-body .tab.stats .recovery .cell-header,
+.coc.cocth.actor .window-content > form .main .content .sheet-body .tab.stats .vitality .cell-header {
+  background-color: #4ba23d;
+}
+.coc.cocth.actor .window-content > form .main .content .sheet-body .tab.stats .madness-header,
+.coc.cocth.actor .window-content > form .main .content .sheet-body .tab.stats .resources-header {
+  font-family: 'MyriadProBold', sans-serif;
+  color: #6f4b93;
+}
+.coc.cocth.actor .window-content > form .main .content .sheet-body .tab.stats .madness .cell-header,
+.coc.cocth.actor .window-content > form .main .content .sheet-body .tab.stats .resources .cell-header {
+  background-color: #6f4b93;
+}
+.coc.cocth.actor .window-content > form .main .content .sheet-body .tab.combat .weapon .item-name {
+  padding-top: 2px;
+  border-right: 1px solid #c9c7b8;
+}
+.coc.cocth.actor .window-content > form .main .content .sheet-body .tab.combat .weapon .item-name .weapon-image {
+  background-image: url('../ui/coc/weapon.png');
+  background-size: 26px 26px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.coc.cocth.actor .window-content > form .main .content .sheet-body .tab.capacities {
+  overflow: auto;
+}
+.coc.cocth.actor .window-content > form .main .content .sheet-body .tab.capacities .path-list {
+  box-shadow: 0 4px 3px -3px gray;
+  margin: 0 0 5px 0;
+  padding: 3px;
+  max-height: 205px;
+  overflow: hidden;
+}
+.coc.cocth.actor .window-content > form .main .content .sheet-body .tab.capacities .path-list .grid {
+  font-size: 12px;
+  max-height: 150px;
+  overflow: auto;
+}
+.coc.cocth.actor .window-content > form .main .content .sheet-body .tab.capacities .path-list .grid .gridrow .gridcell {
+  padding: 3px 5px;
+}
+.coc.cocth.actor .window-content > form .main .content .sheet-body .tab.capacities .path-list .grid .gridrow .gridcell.gridheader {
+  background-color: #4d6345;
+  font-family: 'MyriadProBold', sans-serif;
+  color: white;
+}
+.coc.cocth.actor .window-content > form .main .content .sheet-body .tab.capacities .path-list .grid .gridrow.gridheader {
+  background-color: #4d6345;
+  font-family: 'MyriadProBold', sans-serif;
+  color: white;
+}
+.coc.cocth.actor .window-content > form .main .content .sheet-body .tab.capacities .path-list.encounter {
+  min-height: 100px;
+  height: 100px;
+  max-height: 100px;
+  overflow: hidden;
+}
+.coc.cocth.actor .window-content > form .main .content .sheet-body .tab.capacities .path-list.encounter .grid {
+  min-height: 100px;
+  height: 100px;
+  max-height: 100px;
+  overflow: auto;
+}
+.coc.cocth.actor .window-content > form .main .content .sheet-body .tab.capacities .capacity-list {
+  min-height: calc(100% - 220px);
+  height: calc(100% - 220px);
+  max-height: calc(100% - 220px);
+  overflow: auto;
+}
+.coc.cocth.actor .window-content > form .main .content .sheet-body .tab.capacities .capacity-list.p0 {
+  min-height: calc(100% - 15px);
+  height: calc(100% - 15px);
+  max-height: calc(100% - 15px);
+}
+.coc.cocth.actor .window-content > form .main .content .sheet-body .tab.capacities .capacity-list.p1 {
+  min-height: calc(100% - 120px);
+  height: calc(100% - 120px);
+  max-height: calc(100% - 120px);
+}
+.coc.cocth.actor .window-content > form .main .content .sheet-body .tab.capacities .capacity-list.p2 {
+  min-height: calc(100% - 145px);
+  height: calc(100% - 145px);
+  max-height: calc(100% - 145px);
+}
+.coc.cocth.actor .window-content > form .main .content .sheet-body .tab.capacities .capacity-list.p3 {
+  min-height: calc(100% - 170px);
+  height: calc(100% - 170px);
+  max-height: calc(100% - 170px);
+}
+.coc.cocth.actor .window-content > form .main .content .sheet-body .tab.capacities .capacity-list.p4 {
+  min-height: calc(100% - 195px);
+  height: calc(100% - 195px);
+  max-height: calc(100% - 195px);
+}
+.coc.cocth.actor .window-content > form .main .content .cell {
+  height: 26px;
+}
+.coc.cocth.actor .window-content > form .main .content .cell .field-value {
+  font-family: 'ChN1Regular', cursive;
+  font-size: 16px;
+}
+.coc.cocth.actor .window-content > form .main .content .cell select.field-value {
+  font-size: 14px;
+}
+.coc.cocth.actor .window-content > form .main .content .cell-header {
+  height: 26px;
+  background-color: black;
+  color: white;
+  font-family: 'MyriadProBold', sans-serif;
+}
+.coc.cocth.actor .window-content > form .main .content .drop-field {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.coc.cocth.actor .window-content > form .main .content .drop-field .drop-item {
+  margin-left: 1px;
+  padding-top: 5px;
+  height: 26px;
+  cursor: pointer;
+}
+.coc.cocth.actor .window-content > form .main .content .drop-field .item {
+  padding-top: 3px;
+}
+.coc.cocth.actor .window-content > form .main .content .drop-field .item .item-control {
+  color: #464331c4;
+  visibility: hidden;
+  flex: 0 0 18px;
+  border: 1px solid transparent;
+}
+.coc.cocth.actor .window-content > form .main .content .drop-field:hover > .item > .item-control {
+  visibility: visible;
+}
+.coc.cocth.item {
+  /* ----------------------------------------- */
+  /*  Layout                                   */
+  /* ----------------------------------------- */
+}
+.coc.cocth.item .window-content {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+.coc.cocth.item .window-content > form {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+  background: white;
+}
+.coc.cocth.item .window-content > form .sheet-header {
+  box-shadow: 0 10px 10px gray;
+  background-image: url("../ui/cocth/banner-120.png");
+  background-repeat: repeat;
+  border-bottom: 3px solid #a0c159;
+  margin-bottom: 20px;
+}
+.coc.cocth.item .window-content > form .sheet-header img.profile {
+  flex: 0 0 64px;
+  max-width: 64px;
+  height: 64px;
+  object-fit: contain;
+  border: none;
+}
+.coc.cocth.item .window-content > form .sheet-header .header-details {
+  height: 72px;
+}
+.coc.cocth.item .window-content > form .sheet-header .header-details h1.charname input[type=text] {
+  font-family: 'MyriadPro', sans-serif;
+  color: white;
+  border: none;
+  box-shadow: none;
+  background-color: transparent;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.coc.cocth.item .window-content > form .sheet-header .header-details .item-subtitle {
+  flex: 0 0 100px;
+  height: 64px;
+  margin: 0;
+  padding: 10px;
+  text-align: right;
+  color: #a0c159;
+}
+.coc.cocth.item .window-content > form .sheet-header .header-details .item-subtitle .item-type {
+  color: #a0c159;
+  font-size: 24px;
+  line-height: 26px;
+  margin: 0;
+}
+.coc.cocth.item .window-content > form .sheet-header .header-details .item-subtitle .item-status {
+  font-size: 16px;
+  line-height: 24px;
+}
+.coc.cocth.item .window-content > form .sheet-body {
+  height: calc(100% - 125px);
+  min-height: calc(100% - 125px);
+  max-height: calc(100% - 125px);
+  overflow: auto;
+}
+.coc.cocth.item .window-content > form .sheet-body .tab {
+  background: lightgray;
+  padding: 10px;
+  height: 100%;
+  min-height: 100%;
+  max-height: 100%;
+  overflow: auto;
+}
+.coc.cocth.item .window-content > form .sheet-body .tab .item-properties {
+  flex: 0 0 150px;
+  margin: 5px 5px 5px 0;
+  padding-right: 5px;
+  border-right: 1px groove #eeede0;
+}
+.coc.cocth.item .window-content > form .sheet-body .tab .item-properties .form-group {
+  margin: 0;
+}
+.coc.cocth.item .window-content > form .sheet-body .tab .item-properties .form-group label {
+  line-height: 20px;
+}
+.coc.cocth.item .window-content > form .sheet-body .tab .item-properties .form-group input {
+  text-align: right;
+}
+.coc.cocth.item .window-content > form .sheet-body .tab .item-properties .properties-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.coc.cocth.item .window-content > form .sheet-body .tab .item-properties .properties-list li {
+  margin: 3px 0;
+  padding: 0 2px;
+  background: rgba(0, 0, 0, 0.05);
+  border: 1px groove #eeede0;
+  text-align: center;
+  font-size: 12px;
+  line-height: 18px;
+}
+.coc.cocth nav.sheet-navigation {
+  border: none;
+}
+.coc.cocth nav.sheet-navigation.tabs {
+  font: 14px 'MyriadPro', sans-serif;
+  color: #464331c4;
+  text-align: center;
+  border: none;
+}
+.coc.cocth nav.sheet-navigation.tabs .item {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  padding: 5px;
+  border: 1px solid #736953a6;
+  border-radius: 10px 10px 0 0;
+  margin: 0 -10px 0 0;
+  height: 28px;
+  box-shadow: 0 0 10px #00000052 inset;
+  background: #AAA;
+}
+.coc.cocth nav.sheet-navigation.tabs .item:hover {
+  color: #464331c4;
+  background: #CCC;
+  text-shadow: none;
+}
+.coc.cocth nav.sheet-navigation.tabs .item.active {
+  background: #EEE;
+  color: #464331c4;
+  border: 1px inset #736953a6;
+  z-index: 10000;
+  text-shadow: none;
+}
