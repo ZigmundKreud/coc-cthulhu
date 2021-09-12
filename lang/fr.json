@@ -2,5 +2,7 @@
   "COCTH.sheet.actor" : "Feuille de Personnage - Chroniques Oubliées Cthulhu",
   "COCTH.sheet.npc" : "Feuille de PNJ - Chroniques Oubliées Cthulhu",
   "COCTH.sheet.encounter" : "Feuille de Rencontre - Chroniques Oubliées Cthulhu",
-  "COCTH.sheet.item" : "Fiche d'Objet - Chroniques Oubliées Cthulhu"
+  "COCTH.sheet.item" : "Fiche d'Objet - Chroniques Oubliées Cthulhu",
+
+  "COC.attributes.fp.abbrev" : "PC (Choc)"
 }
