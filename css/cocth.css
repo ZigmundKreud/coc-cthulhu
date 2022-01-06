@@ -523,6 +523,7 @@
   color: #464331c4;
   text-align: center;
   border: none;
+  justify-content: center;
 }
 .coc.cocth nav.sheet-navigation.tabs .item {
   text-overflow: ellipsis;
@@ -535,6 +536,7 @@
   height: 28px;
   box-shadow: 0 0 10px #00000052 inset;
   background: #AAA;
+  width: 16.66%;
 }
 .coc.cocth nav.sheet-navigation.tabs .item:hover {
   color: #464331c4;
