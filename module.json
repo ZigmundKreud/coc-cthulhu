@@ -1,14 +1,30 @@
 {
-  "name": "coc-cthulhu",
+  "id": "coc-cthulhu",
   "title": "Chroniques Oubliées Contemporain - Cthulhu",
-  "description": "Module contenant les compendiums et les règles spécifiques pour le setting \"Cthulhu\" de Chroniques Oubliées Contemporain",
-  "version": "9.238.1",
-  "minimumCoreVersion": "9",
-  "compatibleCoreVersion": "9.238",
-  "system": [
-    "coc"
+  "description": "Module contenant les règles spécifiques pour le setting \"Cthulhu\" de Chroniques Oubliées Contemporain",
+  "version": "10.291.1",
+  "compatibility": {
+    "minimum": 10,
+    "verified": "10.291"
+  },
+  "relationships": {
+    "systems": [{
+      "id": "coc",
+      "type": "system",
+      "manifest": "https://raw.githubusercontent.com/ZigmundKreud/coc/master/system.json",
+      "compatibility": {
+        "verified": "10.291.1"
+      }
+    }]
+  },
+  "authors": [
+    {
+      "name": "Zigmund"
+    },
+    {
+      "name": "Kristov"
+    }
   ],
-  "author": "Zigmund",
   "esmodules": ["module/cocth.js"],
   "styles": ["css/cocth.css"],
   "languages": [
@@ -26,6 +42,6 @@
   "packs": [],
   "url": "https://github.com/ZigmundKreud/coc-cthulhu.git",
   "manifest": "https://raw.githubusercontent.com/ZigmundKreud/coc-cthulhu/main/module.json",
-  "download": "https://github.com/ZigmundKreud/coc-cthulhu/archive/refs/tags/9.238.1.zip",
+  "download": "https://github.com/ZigmundKreud/coc-cthulhu/archive/refs/tags/10.291.1.zip",
   "license": "licence.txt"
 }
