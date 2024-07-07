@@ -8,7 +8,7 @@ export class CoCthActorSheet extends CoCActorSheet {
 
     /** @override */
     static get defaultOptions() {
-        return mergeObject(super.defaultOptions, {
+        return foundry.utils.mergeObject(super.defaultOptions, {
             classes: ["coc", "cocth", "sheet", "actor", "character"],
             template: "/systems/coc/templates/actors/actor-sheet.hbs",
             width: 970,
