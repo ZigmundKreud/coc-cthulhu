@@ -2,11 +2,11 @@
   "id": "coc-cthulhu",
   "title": "Cthulhu - Chroniques Oubliées Contemporain",
   "description": "Module contenant les règles spécifiques pour le setting \"Cthulhu\" de Chroniques Oubliées Contemporain",
-  "version": "12.328.2",
+  "version": "13.347.1",
   "compatibility": {
-    "minimum": 10,
-    "maximum": 12,
-    "verified": 12
+    "minimum": 13,
+    "maximum": 13,
+    "verified": 13
   },
   "relationships": {
     "systems": [{
@@ -14,7 +14,7 @@
       "type": "system",
       "manifest": "https://raw.githubusercontent.com/ZigmundKreud/coc/master/system.json",
       "compatibility": {
-        "verified": "12.328.1"
+        "verified": "13.346.1"
       }
     }]
   },
@@ -43,6 +43,6 @@
   "packs": [],
   "url": "https://github.com/ZigmundKreud/coc-cthulhu.git",
   "manifest": "https://raw.githubusercontent.com/ZigmundKreud/coc-cthulhu/main/module.json",
-  "download": "https://github.com/ZigmundKreud/coc-cthulhu/archive/refs/tags/12.328.2.zip",
+  "download": "https://github.com/ZigmundKreud/coc-cthulhu/archive/refs/tags/13.347.1.zip",
   "license": "licence.txt"
 }
